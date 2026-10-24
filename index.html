@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <title>セキュリティ職 28卒 募集レーダー</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232447C9'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23fff' stroke-width='2.4'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23fff'/%3E%3Cpath d='M16 16 24 9' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>
@@ -16,24 +16,6 @@
   --shadow:0 1px 1px rgba(17,24,39,.04),0 8px 24px -12px rgba(17,24,39,.12);
   --radius:14px;
   --sans:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic","Meiryo","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#0C1219; --surface:#141B25; --surface-2:#1B2431; --fg:#E7ECF3; --muted:#9AA6B8; --line:#243040; --line-2:#2F3D50;
-    --accent:#7D9BFF; --accent-soft:#1C2A4F; --accent-ink:#A9BDFF;
-    --crit:#FF7B72; --high:#F4A261; --med:#E4C95A; --low:#6FD39A;
-    --crit-soft:#3A1F1E; --high-soft:#3A2A18; --med-soft:#36301A; --low-soft:#1B3627;
-    --shadow:0 1px 1px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6);
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#0C1219; --surface:#141B25; --surface-2:#1B2431; --fg:#E7ECF3; --muted:#9AA6B8; --line:#243040; --line-2:#2F3D50;
-  --accent:#7D9BFF; --accent-soft:#1C2A4F; --accent-ink:#A9BDFF;
-  --crit:#FF7B72; --high:#F4A261; --med:#E4C95A; --low:#6FD39A;
-  --crit-soft:#3A1F1E; --high-soft:#3A2A18; --med-soft:#36301A; --low-soft:#1B3627;
-  --shadow:0 1px 1px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6);
-  color-scheme:dark;
 }
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--fg)}
@@ -47,9 +29,7 @@ header.top .wrap{display:flex;align-items:center;gap:12px;padding-block:12px}
 .brand .mark{width:30px;height:30px;border-radius:9px;background:var(--accent);flex:none;display:grid;place-items:center}
 .brand h1{font-size:16.5px;font-weight:700;margin:0;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand small{display:block;font-size:11.5px;color:var(--muted);font-weight:500;letter-spacing:.02em}
-.iconbtn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:9px;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
-.iconbtn:hover{background:var(--surface-2)}
-.iconbtn:focus-visible,.chip:focus-visible,.q:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip:focus-visible,.q:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 main{padding-block:26px 64px}
 
 .hero{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px 28px;box-shadow:var(--shadow);margin-bottom:22px}
@@ -118,8 +98,6 @@ main{padding-block:26px 64px}
 .card.lgd summary>*:not(.lg){position:relative;z-index:1}
 .card .lg{--lgc:var(--lc);position:absolute;pointer-events:none;z-index:0;top:var(--lt);right:-10px;width:min(var(--lw),46%);height:var(--lh);background:linear-gradient(215deg,var(--lgc) 18%,color-mix(in srgb,var(--lgc) 35%,transparent) 55%,transparent 88%);-webkit-mask:var(--li) no-repeat right center/contain;mask:var(--li) no-repeat right center/contain;opacity:var(--lo,.32)}
 .card.lgd .head .more{background:color-mix(in srgb,var(--surface) 82%,transparent);border-radius:6px;padding:0 5px;margin-right:-5px}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .card .lg{--lgc:color-mix(in srgb,var(--lc) 38%,#fff);opacity:calc(var(--lo,.32) + .04)}}
-:root[data-theme="dark"] .card .lg{--lgc:color-mix(in srgb,var(--lc) 38%,#fff);opacity:calc(var(--lo,.32) + .04)}
 .inner .foot{font-size:12px;color:var(--muted);margin-top:12px}
 
 .empty{color:var(--muted);font-size:14px;padding:14px 16px;background:var(--surface);border:1px dashed var(--line-2);border-radius:var(--radius)}
@@ -145,7 +123,6 @@ footer{font-size:12px;color:var(--muted);margin-top:28px;text-align:center}
 <header class="top"><div class="wrap">
   <div class="brand"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2.6" fill="#fff" stroke="none"/><path d="M12 12l6-5.5"/></svg></span>
     <div style="min-width:0"><h1>セキュリティ職 28卒 募集レーダー</h1><small id="sub"></small></div></div>
-  <button id="theme" class="iconbtn" aria-label="ライト・ダーク切り替え" title="ライト・ダーク切り替え"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
 </div></header>
 <main class="wrap">
   <section class="hero">
@@ -183,9 +160,6 @@ const dow=iso=>new Date(utc(iso)).getUTCDay();
 const md=iso=>{const [,m,d]=iso.split("-").map(Number);return m+"/"+d;};
 const jdate=iso=>{const [y,m,d]=iso.split("-").map(Number);return y+"年"+m+"月"+d+"日";};
 
-/* theme */
-try{const t=localStorage.getItem("radar-ja:theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}
-$("#theme").onclick=()=>{const cur=document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");const n=cur==="dark"?"light":"dark";document.documentElement.dataset.theme=n;try{localStorage.setItem("radar-ja:theme",n);}catch(e){}};
 
 /* status */
 function st(o){if(o.status==="open"&&o.deadline&&days(o.deadline)<0)return"closed";return o.status||"unknown";}
