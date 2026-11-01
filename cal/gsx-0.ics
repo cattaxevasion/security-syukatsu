@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:グローバルセキュリティエキスパート 2days仕
+ 事体験 サイバー攻撃への対処をゲーム感覚で学ぶ
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:gsx-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:【締切】グローバルセキュリティエキスパート｜2
+ days仕事体験 サイバー攻撃への対処をゲーム感覚で学ぶ
+DESCRIPTION:12月開催・東京(対面)\n募集ページ: https://job.myna
+ vi.jp/28/pc/search/corp211162/is.html\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://job.mynavi.jp/28/pc/search/corp211162/is.html
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】グローバルセキュリティエキスパート
+ ｜2days仕事体験 サイバー攻撃への対処をゲーム感覚で
+ 学ぶ
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】グローバルセキュリティエキスパート
+ ｜2days仕事体験 サイバー攻撃への対処をゲーム感覚で
+ 学ぶ
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

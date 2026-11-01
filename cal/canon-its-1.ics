@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:キヤノンITソリューションズ セキュリティエ
+ ンジニア職 クイズで学ぶ仕事体験(在宅1day)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:canon-its-1-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:【締切】キヤノンITソリューションズ｜セキュリ
+ ティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+DESCRIPTION:2026年12月開催(オンライン)、締切12/17\n募集ペー
+ ジ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※日
+ 程は変わることがあります。応募前に必ず公式サイト
+ ・マイページで確認してください。\nセキュリティ職 28
+ 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】キヤノンITソリューションズ｜セキュ
+ リティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】キヤノンITソリューションズ｜セキュ
+ リティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

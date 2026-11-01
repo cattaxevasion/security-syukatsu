@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:セキュリティ職28卒 締切
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:gsx-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:【締切】グローバルセキュリティエキスパート｜2
+ days仕事体験 サイバー攻撃への対処をゲーム感覚で学ぶ
+DESCRIPTION:12月開催・東京(対面)\n募集ページ: https://job.myna
+ vi.jp/28/pc/search/corp211162/is.html\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://job.mynavi.jp/28/pc/search/corp211162/is.html
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】グローバルセキュリティエキスパート
+ ｜2days仕事体験 サイバー攻撃への対処をゲーム感覚で
+ 学ぶ
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】グローバルセキュリティエキスパート
+ ｜2days仕事体験 サイバー攻撃への対処をゲーム感覚で
+ 学ぶ
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:【締切】三井物産セキュアディレクション｜28卒
+ 新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+DESCRIPTION:第Ⅰ期の締切。第Ⅱ期1/1〜3/31、第Ⅲ期4/1〜6/30\
+ n募集ページ: https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665
+ 375744\n※日程は変わることがあります。応募前に必ず公
+ 式サイト・マイページで確認してください。\nセキュリ
+ ティ職 28卒 募集レーダー: https://cattaxevasion.github.io/securi
+ ty-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-1-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【締切】三井物産セキュアディレクション｜セキ
+ ュリティコンサルタント冬季仕事体験(1day・本選考直結
+ )
+DESCRIPTION:必着。開催は2027/1/25\n募集ページ: https://public.n-
+ ats.hrmos.co/hr-mbsd/pages/2303347379458498560\n※日程は変わるこ
+ とがあります。応募前に必ず公式サイト・マイページ
+ で確認してください。\nセキュリティ職 28卒 募集レー
+ ダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/pages/2303347379458498560
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜セ
+ キュリティコンサルタント冬季仕事体験(1day・本選考直
+ 結)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜セ
+ キュリティコンサルタント冬季仕事体験(1day・本選考直
+ 結)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:canon-its-1-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:【締切】キヤノンITソリューションズ｜セキュリ
+ ティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+DESCRIPTION:2026年12月開催(オンライン)、締切12/17\n募集ペー
+ ジ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※日
+ 程は変わることがあります。応募前に必ず公式サイト
+ ・マイページで確認してください。\nセキュリティ職 28
+ 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】キヤノンITソリューションズ｜セキュ
+ リティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】キヤノンITソリューションズ｜セキュ
+ リティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hitachi-1-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:【締切】日立製作所｜2WEEKS職場体験インターン B
+ コース 2期(募集職種にセキュリティ・社内ITセキュリテ
+ ィ)
+DESCRIPTION:2期は11/24〜12/3(Bコースのみ)\n募集ページ: https:/
+ /www.hitachi.co.jp/recruit/internship/2week/\n※日程は変わること
+ があります。応募前に必ず公式サイト・マイページで
+ 確認してください。\nセキュリティ職 28卒 募集レーダ
+ ー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.hitachi.co.jp/recruit/internship/2week/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】日立製作所｜2WEEKS職場体験インターン
+  Bコース 2期(募集職種にセキュリティ・社内ITセキュリ
+ ティ)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】日立製作所｜2WEEKS職場体験インターン
+  Bコース 2期(募集職種にセキュリティ・社内ITセキュリ
+ ティ)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hitachi-1-op@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:【受付開始】日立製作所｜2WEEKS職場体験インター
+ ン Bコース 2期(募集職種にセキュリティ・社内ITセキュ
+ リティ)
+DESCRIPTION:2期は11/24〜12/3(Bコースのみ)\n募集ページ: https:/
+ /www.hitachi.co.jp/recruit/internship/2week/\n※日程は変わること
+ があります。応募前に必ず公式サイト・マイページで
+ 確認してください。\nセキュリティ職 28卒 募集レーダ
+ ー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.hitachi.co.jp/recruit/internship/2week/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】日立製作所｜2WEEKS職場体験インタ
+ ーン Bコース 2期(募集職種にセキュリティ・社内ITセキ
+ ュリティ)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lycorp-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:【締切】LINEヤフー｜Security Engineering Expert(Security)
+DESCRIPTION:Term2 12/7・Term3 2027/1/5(各10:00)。早期終了あり\n募
+ 集ページ: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003
+ /\n※日程は変わることがあります。応募前に必ず公式
+ サイト・マイページで確認してください。\nセキュリテ
+ ィ職 28卒 募集レーダー: https://cattaxevasion.github.io/security-
+ syukatsu/
+URL:https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(Securit
+ y)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(Securit
+ y)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mercari-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:【締切】メルカリ｜Class of 2028 Security Engineer Internsh
+ ip
+DESCRIPTION:12/31 23:59 JST締切。2〜3か月・週20時間以上\n募集
+ ページ: https://apply.workable.com/mercari/jobs/view/50B095B785.md\n※
+ 日程は変わることがあります。応募前に必ず公式サイ
+ ト・マイページで確認してください。\nセキュリティ職
+  28卒 募集レーダー: https://cattaxevasion.github.io/security-syukat
+ su/
+URL:https://apply.workable.com/mercari/jobs/view/50B095B785.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
+ rnship
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
+ rnship
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

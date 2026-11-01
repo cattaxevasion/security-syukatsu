@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:メルカリ Class of 2028 Security Engineer Internship
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:mercari-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:【締切】メルカリ｜Class of 2028 Security Engineer Internsh
+ ip
+DESCRIPTION:12/31 23:59 JST締切。2〜3か月・週20時間以上\n募集
+ ページ: https://apply.workable.com/mercari/jobs/view/50B095B785.md\n※
+ 日程は変わることがあります。応募前に必ず公式サイ
+ ト・マイページで確認してください。\nセキュリティ職
+  28卒 募集レーダー: https://cattaxevasion.github.io/security-syukat
+ su/
+URL:https://apply.workable.com/mercari/jobs/view/50B095B785.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
+ rnship
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
+ rnship
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

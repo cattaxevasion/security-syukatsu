@@ -91,6 +91,13 @@ main{padding-block:26px 64px}
 .ev{display:flex;flex-direction:column;gap:3px;font-size:13px}
 .ev a{overflow-wrap:anywhere}
 .ext{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+a.linkbtn{text-decoration:none}
+.calbtn{appearance:none;border:0;background:none;padding:0;font:inherit;font-size:inherit;color:var(--accent-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;cursor:pointer;display:inline-flex;align-items:center;gap:3px}
+.calbtn:focus-visible,.calmenu a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.calmenu{display:flex;flex-wrap:wrap;gap:6px;margin-top:5px}
+.calmenu[hidden]{display:none}
+.calmenu a{display:inline-flex;align-items:center;font-size:12px;font-weight:600;padding:2px 10px;border-radius:8px;border:1px solid var(--line-2);background:var(--surface);color:var(--accent-ink);text-decoration:none;white-space:nowrap}
+.calmenu a:hover{background:var(--accent-soft);border-color:transparent}
 .xbtn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;padding:3px 10px;border-radius:8px;border:1px solid var(--line-2);background:var(--surface);color:var(--accent-ink);text-decoration:none;line-height:1.6;white-space:nowrap}
 .xbtn:hover{background:var(--accent-soft);border-color:transparent}
 .xbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -111,7 +118,7 @@ main{padding-block:26px 64px}
 .after .prose p{margin:0 0 8px}
 footer{font-size:12px;color:var(--muted);margin-top:28px;text-align:center}
 @media print{
-  header.top,.bar,.linkbtn,.ext{display:none!important}
+  header.top,.bar,.linkbtn,.ext,.calbtn,.calmenu{display:none!important}
   body{background:#fff;color:#000;font-size:11pt}
   .card,.hero,.after details{box-shadow:none;break-inside:avoid}
   .cards{grid-template-columns:1fr 1fr}
@@ -136,7 +143,7 @@ footer{font-size:12px;color:var(--muted);margin-top:28px;text-align:center}
     <div class="chips" id="f-st"></div>
     <div class="chips" id="f-grp"></div>
     <div class="chips" id="f-kind"></div>
-    <div class="tools"><input class="q" id="q" type="search" placeholder="企業名・職種で検索（例：SOC、診断、CSIRT）" aria-label="検索"><button class="linkbtn" id="openall" type="button">すべて開く</button><span class="count" id="count"></span></div>
+    <div class="tools"><input class="q" id="q" type="search" placeholder="企業名・職種で検索（例：SOC、診断、CSIRT）" aria-label="検索"><button class="linkbtn" id="openall" type="button">すべて開く</button><a class="linkbtn" id="calall" href="cal/all.ics" hidden>締切をまとめてカレンダーへ</a><span class="count" id="count"></span></div>
   </div>
   <div id="list"></div>
   <div class="after" id="after"></div>
@@ -201,8 +208,22 @@ function view(){const q=Q.trim().toLowerCase();
 const XI='<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>';
 function ext(c){const L=[["openwork","OpenWork","の社員クチコミ"],["onecareer","ONE CAREER","の選考情報"]].filter(([k])=>c[k]);
   return L.length?'<div class="ext">'+L.map(([k,l,t])=>'<a class="xbtn" href="'+esc(c[k])+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(l+"で"+c.name+t+"を見る")+'">'+l+XI+"</a>").join("")+"</div>":"";}
+/* calendar: Google link built here, .ics files sit in cal/ */
+const SITE="https://cattaxevasion.github.io/security-syukatsu/";
+const CI='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>';
+function calEv(o){if(o.deadline&&days(o.deadline)>=0)return["締切",o.deadline];if(o.opens&&days(o.opens)>=0)return["受付開始",o.opens];return null;}
+const ymd=iso=>iso.replace(/-/g,"");
+const next=iso=>{const t=new Date(utc(iso)+864e5);return t.getUTCFullYear()+String(t.getUTCMonth()+1).padStart(2,"0")+String(t.getUTCDate()).padStart(2,"0");};
+function cal(c,o){const ev=calEv(o);if(!ev)return"";const i=c.items.indexOf(o);
+  const det=[o.deadlineNote,o.url?"募集ページ: "+o.url:"","※日程は変わることがあります。応募前に必ず公式サイト・マイページで確認してください。","セキュリティ職 28卒 募集レーダー: "+SITE].filter(Boolean).join("\n");
+  const g="https://calendar.google.com/calendar/render?"+new URLSearchParams({action:"TEMPLATE",text:"【"+ev[0]+"】"+c.name+"｜"+o.title,dates:ymd(ev[1])+"/"+next(ev[1]),details:det,ctz:"Asia/Tokyo"}).toString();
+  const lbl=c.name+" "+o.title+"の"+ev[0]+"日";
+  return ' ・ <button class="calbtn" type="button" aria-expanded="false" aria-label="'+esc(lbl+"をカレンダーに追加")+'">'+CI+'カレンダー</button>'+
+   '<span class="calmenu" hidden><a href="'+esc(g)+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(lbl+"をGoogleカレンダーに追加")+'">Googleカレンダー</a>'+
+   '<a href="cal/'+esc(c.id)+"-"+i+'.ics" aria-label="'+esc(lbl+"をiPhone・Outlookのカレンダーに追加")+'">iPhone・Outlook（.ics）</a></span>';}
+document.addEventListener("click",e=>{const b=e.target.closest(".calbtn");if(!b)return;e.preventDefault();e.stopPropagation();const m=b.nextElementSibling;const show=m.hidden;m.hidden=!show;b.setAttribute("aria-expanded",String(show));});
 function card(c){const id="c-"+c.id;
-  const ops=c._ops.map(o=>{const k=K[o.kind]||[o.kind,"k-ev"];return '<li class="op'+(st(o)==="closed"?" closed":"")+'"><span class="pill k '+k[1]+'">'+esc(k[0])+'</span><div><div class="t">'+esc(o.title)+'</div><div class="m">'+line(o)+(o.url?' ・ <a href="'+esc(o.url)+'" target="_blank" rel="noopener noreferrer">募集ページ</a>':"")+"</div></div></li>";}).join("");
+  const ops=c._ops.map(o=>{const k=K[o.kind]||[o.kind,"k-ev"];return '<li class="op'+(st(o)==="closed"?" closed":"")+'"><span class="pill k '+k[1]+'">'+esc(k[0])+'</span><div><div class="t">'+esc(o.title)+'</div><div class="m">'+line(o)+(o.url?' ・ <a href="'+esc(o.url)+'" target="_blank" rel="noopener noreferrer">募集ページ</a>':"")+cal(c,o)+"</div></div></li>";}).join("");
   const notes=c.items.filter(o=>o.note||(o.roles&&o.roles.length)||o.source).map(o=>'<div class="note"><b>'+esc(o.title)+"</b>"+(o.roles&&o.roles.length?'<span class="tags">'+o.roles.map(esc).join("・")+"</span>":"")+(o.note?"<div>"+esc(o.note)+"</div>":"")+(o.source?'<div class="src">出典：'+esc(o.source)+"</div>":"")+"</div>").join("");
   const lo=c.logo,lst=lo?' style="--li:url('+esc(lo.src)+');--lw:'+(+lo.w)+'px;--lh:'+(+lo.h)+'px;--lt:'+(+lo.top)+'px;--lc:'+esc(lo.color)+';--lo:'+(+lo.opacity)+'"':"";
   return '<details class="card'+(lo?" lgd":"")+'" id="'+id+'"'+lst+(OPEN.has(id)?" open":"")+"><summary>"+(lo?'<span class="lg" aria-hidden="true"></span>':"")+
@@ -229,7 +250,7 @@ function head(){const all=D.items,best=c=>{const o=c.items.slice().sort(cmp)[0];
    '<details><summary>対象と調べ方</summary><div class="prose">'+
    "<p>対象は、東証プライム上場企業、大手グループの中核会社・情報システム子会社、名の知れたセキュリティ専業、日本で新卒を採用する大手外資系です。職種はSOC・CSIRT・DFIR・検知エンジニアリング・脆弱性診断・セキュリティエンジニア・セキュリティコンサルを含みます。</p>"+
    "<p>候補は就活サイトだけでなく、各社の公式採用サイト、統合報告書のセキュリティ組織の記述、業界団体の会員一覧（ISOG-J、ICT-ISAC、金融ISAC、交通ISACなど）、セキュリティサービス市場のレポート、業界ニュースから洗い出しました。募集中の締切は出典ページを開き直して照合しています。</p>"+
-   "<p>「セキュリティ配属確約」は、職種別・コース別採用などで入社時の配属先がセキュリティ領域に決まるものを指します。</p><p>カード下部のOpenWork・ONE CAREERボタンから、各サイトの企業ページ（社員クチコミ・選考体験談）を開けます。ONE CAREERに企業ページがない会社はOpenWorkのみです。カード右上のロゴは各社の公式サイトなどから取得したもので、各社の商標です。</p></div></details>"+
+   "<p>「セキュリティ配属確約」は、職種別・コース別採用などで入社時の配属先がセキュリティ領域に決まるものを指します。</p><p>カード下部のOpenWork・ONE CAREERボタンから、各サイトの企業ページ（社員クチコミ・選考体験談）を開けます。ONE CAREERに企業ページがない会社はOpenWorkのみです。カード右上のロゴは各社の公式サイトなどから取得したもので、各社の商標です。</p><p>締切・受付開始日が先にある募集には「カレンダー」ボタンがあり、Googleカレンダーか、iPhone・Outlook用の.icsファイルで予定に追加できます。.icsには締切の3日前と前日の朝に通知が入っています。</p></div></details>"+
    (D.excluded.length?"<details><summary>調べたがセキュリティ職の採用経路が見当たらなかった企業（"+D.excluded.length+"社）</summary><ul>"+grp(D.excluded,x=>esc(x.name)+(x.reason?"（"+esc(x.reason)+"）":""))+"</ul></details>":"")+
    (D.unchecked.length?"<details><summary>サイトにアクセスできず未確認の企業（"+D.unchecked.length+"社）</summary><ul>"+grp(D.unchecked,x=>esc(x.name))+"</ul></details>":"");
   $("#foot").textContent=(D.date?jdate(D.date)+"時点の情報。":"")+"各社の募集内容は予告なく変わることがあります。";}
@@ -239,6 +260,7 @@ let pre=null;
 addEventListener("beforeprint",()=>{pre=[...document.querySelectorAll("details")].map(d=>d.open);document.querySelectorAll("details").forEach(d=>d.open=true);});
 addEventListener("afterprint",()=>{if(pre)document.querySelectorAll("details").forEach((d,i)=>d.open=pre[i]);pre=null;});
 
+if(D.items.some(c=>c.items.some(calEv)))$("#calall").hidden=false;
 bar();head();list();
 })();
 </script>

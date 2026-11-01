@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:三井物産セキュアディレクション 28卒新卒採
+ 用(診断/監視/構築/AIセキュリティ/コンサル)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:mbsd-0-dl@security-syukatsu
+DTSTAMP:20261101T121131Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:【締切】三井物産セキュアディレクション｜28卒
+ 新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+DESCRIPTION:第Ⅰ期の締切。第Ⅱ期1/1〜3/31、第Ⅲ期4/1〜6/30\
+ n募集ページ: https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665
+ 375744\n※日程は変わることがあります。応募前に必ず公
+ 式サイト・マイページで確認してください。\nセキュリ
+ ティ職 28卒 募集レーダー: https://cattaxevasion.github.io/securi
+ ty-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
