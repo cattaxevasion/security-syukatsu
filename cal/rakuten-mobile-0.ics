@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:楽天モバイル 2028年新卒 セキュリティエンジ
+ ニアコース
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:rakuten-mobile-0-dl@security-syukatsu
+DTSTAMP:20261101T125859Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:【締切】楽天モバイル｜2028年新卒 セキュリティ
+ エンジニアコース
+DESCRIPTION:1期ES締切12/11 23:59\n募集ページ: https://corp.mobile.r
+ akuten.co.jp/recruit/fresh/\n※日程は変わることがあります。
+ 応募前に必ず公式サイト・マイページで確認してくだ
+ さい。\nセキュリティ職 28卒 募集レーダー: https://cattaxe
+ vasion.github.io/security-syukatsu/
+URL:https://corp.mobile.rakuten.co.jp/recruit/fresh/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】楽天モバイル｜2028年新卒 セキュリテ
+ ィエンジニアコース
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】楽天モバイル｜2028年新卒 セキュリテ
+ ィエンジニアコース
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

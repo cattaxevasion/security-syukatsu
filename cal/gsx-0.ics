@@ -8,17 +8,19 @@ X-WR-CALNAME:グローバルセキュリティエキスパート 2days仕
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:gsx-0-dl@security-syukatsu
-DTSTAMP:20261101T121131Z
+DTSTAMP:20261101T125859Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:【締切】グローバルセキュリティエキスパート｜2
  days仕事体験 サイバー攻撃への対処をゲーム感覚で学ぶ
-DESCRIPTION:12月開催・東京(対面)\n募集ページ: https://job.myna
- vi.jp/28/pc/search/corp211162/is.html\n※日程は変わることがあ
- ります。応募前に必ず公式サイト・マイページで確認
- してください。\nセキュリティ職 28卒 募集レーダー: htt
- ps://cattaxevasion.github.io/security-syukatsu/
-URL:https://job.mynavi.jp/28/pc/search/corp211162/is.html
+DESCRIPTION:12月開催・東京竹芝(対面)。ES選考あり\n募集ペ
+ ージ: https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpI
+ d=211162&optNo=V5njy\n※日程は変わることがあります。応募
+ 前に必ず公式サイト・マイページで確認してください
+ 。\nセキュリティ職 28卒 募集レーダー: https://cattaxevasion
+ .github.io/security-syukatsu/
+URL:https://job.mynavi.jp/28/pc/corpinfo/displayInternship/index?corpId=211
+ 162&optNo=V5njy
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NTT(NTT研究所) NTT R&D 冬期インターンシップ(セ
+ キュリティ分野テーマ)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:ntt-labs-0-dl@security-syukatsu
+DTSTAMP:20261101T125859Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:【締切】NTT(NTT研究所)｜NTT R&D 冬期インターンシッ
+ プ(セキュリティ分野テーマ)
+DESCRIPTION:11/18正午締切。適性検査の言語選択は11/16正午
+ まで\n募集ページ: https://www.ntt-labs.jp/saiyo/internship/recruitm
+ ent1/\n※日程は変わることがあります。応募前に必ず公
+ 式サイト・マイページで確認してください。\nセキュリ
+ ティ職 28卒 募集レーダー: https://cattaxevasion.github.io/securi
+ ty-syukatsu/
+URL:https://www.ntt-labs.jp/saiyo/internship/recruitment1/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】NTT(NTT研究所)｜NTT R&D 冬期インターン
+ シップ(セキュリティ分野テーマ)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】NTT(NTT研究所)｜NTT R&D 冬期インターン
+ シップ(セキュリティ分野テーマ)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

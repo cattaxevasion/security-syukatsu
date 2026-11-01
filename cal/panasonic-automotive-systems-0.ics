@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:パナソニック オートモーティブシステムズ 冬
+ 季インターンシップ ICT(セキュリティ)テーマ「サイバ
+ ー攻撃からクルマを守る！攻撃検知技術の開発」(横浜/
+ 大阪)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:panasonic-automotive-systems-0-dl@security-syukatsu
+DTSTAMP:20261101T125859Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:【締切】パナソニック オートモーティブシステム
+ ズ｜冬季インターンシップ ICT(セキュリティ)テーマ「
+ サイバー攻撃からクルマを守る！攻撃検知技術の開発
+ 」(横浜/大阪)
+DESCRIPTION:チャレンジシート11/10、適性検査11/12まで\n募集
+ ページ: https://automotive.panasonic.com/recruit/intern/\n※日程は
+ 変わることがあります。応募前に必ず公式サイト・マ
+ イページで確認してください。\nセキュリティ職 28卒 
+ 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://automotive.panasonic.com/recruit/intern/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】パナソニック オートモーティブシス
+ テムズ｜冬季インターンシップ ICT(セキュリティ)テー
+ マ「サイバー攻撃からクルマを守る！攻撃検知技術の
+ 開発」(横浜/大阪)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】パナソニック オートモーティブシス
+ テムズ｜冬季インターンシップ ICT(セキュリティ)テー
+ マ「サイバー攻撃からクルマを守る！攻撃検知技術の
+ 開発」(横浜/大阪)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -7,7 +7,7 @@ X-WR-CALNAME:LINEヤフー Security Engineering Expert(Security)
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:lycorp-0-dl@security-syukatsu
-DTSTAMP:20261101T121131Z
+DTSTAMP:20261101T125859Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:【締切】LINEヤフー｜Security Engineering Expert(Security)

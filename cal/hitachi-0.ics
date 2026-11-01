@@ -7,18 +7,18 @@ X-WR-CALNAME:日立製作所 2WEEKS職場体験インターン Bコース 2
  期(募集職種にセキュリティ・社内ITセキュリティ)
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:hitachi-1-dl@security-syukatsu
-DTSTAMP:20261101T121131Z
+UID:hitachi-0-dl@security-syukatsu
+DTSTAMP:20261101T125859Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:【締切】日立製作所｜2WEEKS職場体験インターン B
  コース 2期(募集職種にセキュリティ・社内ITセキュリテ
  ィ)
-DESCRIPTION:2期は11/24〜12/3(Bコースのみ)\n募集ページ: https:/
- /www.hitachi.co.jp/recruit/internship/2week/\n※日程は変わること
- があります。応募前に必ず公式サイト・マイページで
- 確認してください。\nセキュリティ職 28卒 募集レーダ
- ー: https://cattaxevasion.github.io/security-syukatsu/
+DESCRIPTION:1期(10/14〜10/25)は終了。2期はBコースのみ\n募集
+ ページ: https://www.hitachi.co.jp/recruit/internship/2week/\n※日程
+ は変わることがあります。応募前に必ず公式サイト・
+ マイページで確認してください。\nセキュリティ職 28卒
+  募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
 URL:https://www.hitachi.co.jp/recruit/internship/2week/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -37,18 +37,18 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:hitachi-1-op@security-syukatsu
-DTSTAMP:20261101T121131Z
+UID:hitachi-0-op@security-syukatsu
+DTSTAMP:20261101T125859Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:【受付開始】日立製作所｜2WEEKS職場体験インター
  ン Bコース 2期(募集職種にセキュリティ・社内ITセキュ
  リティ)
-DESCRIPTION:2期は11/24〜12/3(Bコースのみ)\n募集ページ: https:/
- /www.hitachi.co.jp/recruit/internship/2week/\n※日程は変わること
- があります。応募前に必ず公式サイト・マイページで
- 確認してください。\nセキュリティ職 28卒 募集レーダ
- ー: https://cattaxevasion.github.io/security-syukatsu/
+DESCRIPTION:1期(10/14〜10/25)は終了。2期はBコースのみ\n募集
+ ページ: https://www.hitachi.co.jp/recruit/internship/2week/\n※日程
+ は変わることがあります。応募前に必ず公式サイト・
+ マイページで確認してください。\nセキュリティ職 28卒
+  募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
 URL:https://www.hitachi.co.jp/recruit/internship/2week/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
