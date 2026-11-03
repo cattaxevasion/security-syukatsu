@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NTTテクノクロス 業務・技術体験 1dayワークシ
+ ョップ:セキュリティ(暗号を学ぶ)（12/4回）
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:ntt-technocross-0-dl@security-syukatsu
+DTSTAMP:20261103T153242Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:【締切】NTTテクノクロス｜業務・技術体験 1dayワ
+ ークショップ:セキュリティ(暗号を学ぶ)（12/4回）
+DESCRIPTION:12/4回の締切(11/4正午)\n募集ページ: https://www.ntt-
+ tx.co.jp/ri/recruit/event.html\n※日程は変わることがあります
+ 。応募前に必ず公式サイト・マイページで確認してく
+ ださい。\nセキュリティ職 28卒 募集レーダー: https://catt
+ axevasion.github.io/security-syukatsu/
+URL:https://www.ntt-tx.co.jp/ri/recruit/event.html
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】NTTテクノクロス｜業務・技術体験 1day
+ ワークショップ:セキュリティ(暗号を学ぶ)（12/4回）
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】NTTテクノクロス｜業務・技術体験 1day
+ ワークショップ:セキュリティ(暗号を学ぶ)（12/4回）
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
