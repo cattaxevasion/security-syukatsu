@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:日立ソリューションズ・クリエイト 業務体験
+ ワーク:セキュリティ課題の解決(制御システム、1day)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:hitachi-solutions-create-0-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:【締切】日立ソリューションズ・クリエイト｜業
+ 務体験ワーク:セキュリティ課題の解決(制御システム、
+ 1day)
+DESCRIPTION:11月〜1月開催。締切はリクナビ掲載の12/22\n募
+ 集ページ: https://www.hitachi-solutions-create.co.jp/recruit/internshi
+ p/\n※日程は変わることがあります。応募前に必ず公式
+ サイト・マイページで確認してください。\nセキュリテ
+ ィ職 28卒 募集レーダー: https://cattaxevasion.github.io/security-
+ syukatsu/
+URL:https://www.hitachi-solutions-create.co.jp/recruit/internship/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】日立ソリューションズ・クリエイト｜
+ 業務体験ワーク:セキュリティ課題の解決(制御システム
+ 、1day)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】日立ソリューションズ・クリエイト｜
+ 業務体験ワーク:セキュリティ課題の解決(制御システム
+ 、1day)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

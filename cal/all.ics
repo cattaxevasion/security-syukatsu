@@ -7,7 +7,7 @@ X-WR-CALNAME:セキュリティ職28卒 締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:gsx-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:【締切】グローバルセキュリティエキスパート｜2
@@ -38,35 +38,134 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mbsd-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:【締切】三井物産セキュアディレクション｜28卒
- 新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
-DESCRIPTION:第Ⅰ期の締切。第Ⅱ期1/1〜3/31、第Ⅲ期4/1〜6/30\
- n募集ページ: https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665
- 375744\n※日程は変わることがあります。応募前に必ず公
- 式サイト・マイページで確認してください。\nセキュリ
- ティ職 28卒 募集レーダー: https://cattaxevasion.github.io/securi
- ty-syukatsu/
+ 新卒採用 第Ⅰ期(診断/監視/構築/AIセキュリティ/コンサ
+ ル)
+DESCRIPTION:第Ⅰ期締切。カジュアル面談参加後に応募\n募
+ 集ページ: https://public.n-ats.hrmos.co/hr-mbsd/jobs/22559577746653757
+ 44\n※日程は変わることがあります。応募前に必ず公式
+ サイト・マイページで確認してください。\nセキュリテ
+ ィ職 28卒 募集レーダー: https://cattaxevasion.github.io/security-
+ syukatsu/
 URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:【締切】三井物産セキュアディレクション｜28
- 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+ 卒新卒採用 第Ⅰ期(診断/監視/構築/AIセキュリティ/コン
+ サル)
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:【締切】三井物産セキュアディレクション｜28
- 卒新卒採用(診断/監視/構築/AIセキュリティ/コンサル)
+ 卒新卒採用 第Ⅰ期(診断/監視/構築/AIセキュリティ/コン
+ サル)
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mbsd-1-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:【締切】三井物産セキュアディレクション｜28卒
+ 新卒採用 第Ⅱ期
+DESCRIPTION:第Ⅱ期 1/1〜3/31\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅱ期
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅱ期
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-1-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:【受付開始】三井物産セキュアディレクション｜2
+ 8卒新卒採用 第Ⅱ期
+DESCRIPTION:第Ⅱ期 1/1〜3/31\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】三井物産セキュアディレクション
+ ｜28卒新卒採用 第Ⅱ期
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-2-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:【締切】三井物産セキュアディレクション｜28卒
+ 新卒採用 第Ⅲ期
+DESCRIPTION:第Ⅲ期 4/1〜6/30\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅲ期
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅲ期
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-2-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:【受付開始】三井物産セキュアディレクション｜2
+ 8卒新卒採用 第Ⅲ期
+DESCRIPTION:第Ⅲ期 4/1〜6/30\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】三井物産セキュアディレクション
+ ｜28卒新卒採用 第Ⅲ期
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-3-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:【締切】三井物産セキュアディレクション｜セキ
@@ -96,18 +195,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:secuavail-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
 SUMMARY:【締切】セキュアヴェイル｜新卒採用 会社説明会
- (技術総合職、オンライン)
-DESCRIPTION:11/10回の締切(各回3営業日前17時)。他に11/19・12/
- 11・12/22\n募集ページ: https://www.secuavail.com/recruit/%e6%96%b0%e
- 5%8d%92%e6%8e%a1%e7%94%a8-%e4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef
- %bc%8811%ef%bd%9e12%e6%9c%88%ef%bc%89/\n※日程は変わることがあ
- ります。応募前に必ず公式サイト・マイページで確認
- してください。\nセキュリティ職 28卒 募集レーダー: htt
- ps://cattaxevasion.github.io/security-syukatsu/
+  11/19回(技術総合職、オンライン)
+DESCRIPTION:11/19(木)13:30回。3営業日前17時締切\n募集ページ:
+  https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-%e
+ 4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%88
+ %ef%bc%89/\n※日程は変わることがあります。応募前に必
+ ず公式サイト・マイページで確認してください。\nセキ
+ ュリティ職 28卒 募集レーダー: https://cattaxevasion.github.io/
+ security-syukatsu/
 URL:https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-
  %e4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%
  88%ef%bc%89/
@@ -115,28 +214,91 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
- 明会(技術総合職、オンライン)
+ 明会 11/19回(技術総合職、オンライン)
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
- 明会(技術総合職、オンライン)
+ 明会 11/19回(技術総合職、オンライン)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:secuavail-1-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:【締切】セキュアヴェイル｜新卒採用 会社説明会
+  12/11回(技術総合職、オンライン)
+DESCRIPTION:12/11(金)10:30回。3営業日前17時締切\n募集ページ:
+  https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-%e
+ 4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%88
+ %ef%bc%89/\n※日程は変わることがあります。応募前に必
+ ず公式サイト・マイページで確認してください。\nセキ
+ ュリティ職 28卒 募集レーダー: https://cattaxevasion.github.io/
+ security-syukatsu/
+URL:https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-
+ %e4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%
+ 88%ef%bc%89/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 12/11回(技術総合職、オンライン)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 12/11回(技術総合職、オンライン)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:secuavail-2-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:【締切】セキュアヴェイル｜新卒採用 会社説明会
+  12/22回(技術総合職、オンライン)
+DESCRIPTION:12/22(火)16:30回。3営業日前17時締切\n募集ページ:
+  https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-%e
+ 4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%88
+ %ef%bc%89/\n※日程は変わることがあります。応募前に必
+ ず公式サイト・マイページで確認してください。\nセキ
+ ュリティ職 28卒 募集レーダー: https://cattaxevasion.github.io/
+ security-syukatsu/
+URL:https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-
+ %e4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8811%ef%bd%9e12%e6%9c%
+ 88%ef%bc%89/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 12/22回(技術総合職、オンライン)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 12/22回(技術総合職、オンライン)
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:canon-its-1-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:【締切】キヤノンITソリューションズ｜セキュリ
  ティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
-DESCRIPTION:2026年12月開催(オンライン)、締切12/17\n募集ペー
- ジ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※日
- 程は変わることがあります。応募前に必ず公式サイト
- ・マイページで確認してください。\nセキュリティ職 28
- 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+DESCRIPTION:開催は11〜12月(オンライン)、締切12/17\n募集ペ
+ ージ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※
+ 日程は変わることがあります。応募前に必ず公式サイ
+ ト・マイページで確認してください。\nセキュリティ職
+  28卒 募集レーダー: https://cattaxevasion.github.io/security-syukat
+ su/
 URL:https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -154,7 +316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hitachi-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:【締切】日立製作所｜2WEEKS職場体験インターン B
@@ -184,7 +346,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hitachi-0-op@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:【受付開始】日立製作所｜2WEEKS職場体験インター
@@ -206,44 +368,48 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ntt-technocross-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:【締切】NTTテクノクロス｜業務・技術体験 1dayワ
- ークショップ:セキュリティ(暗号を学ぶ)（12/4回）
-DESCRIPTION:12/4回の締切(11/4正午)\n募集ページ: https://www.ntt-
- tx.co.jp/ri/recruit/event.html\n※日程は変わることがあります
- 。応募前に必ず公式サイト・マイページで確認してく
- ださい。\nセキュリティ職 28卒 募集レーダー: https://catt
- axevasion.github.io/security-syukatsu/
-URL:https://www.ntt-tx.co.jp/ri/recruit/event.html
+UID:hitachi-solutions-create-0-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:【締切】日立ソリューションズ・クリエイト｜業
+ 務体験ワーク:セキュリティ課題の解決(制御システム、
+ 1day)
+DESCRIPTION:11月〜1月開催。締切はリクナビ掲載の12/22\n募
+ 集ページ: https://www.hitachi-solutions-create.co.jp/recruit/internshi
+ p/\n※日程は変わることがあります。応募前に必ず公式
+ サイト・マイページで確認してください。\nセキュリテ
+ ィ職 28卒 募集レーダー: https://cattaxevasion.github.io/security-
+ syukatsu/
+URL:https://www.hitachi-solutions-create.co.jp/recruit/internship/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】NTTテクノクロス｜業務・技術体験 1day
- ワークショップ:セキュリティ(暗号を学ぶ)（12/4回）
+DESCRIPTION:【締切】日立ソリューションズ・クリエイト｜
+ 業務体験ワーク:セキュリティ課題の解決(制御システム
+ 、1day)
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】NTTテクノクロス｜業務・技術体験 1day
- ワークショップ:セキュリティ(暗号を学ぶ)（12/4回）
+DESCRIPTION:【締切】日立ソリューションズ・クリエイト｜
+ 業務体験ワーク:セキュリティ課題の解決(制御システム
+ 、1day)
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ntt-technocross-1-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+UID:ntt-technocross-0-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:【締切】NTTテクノクロス｜業務・技術体験 1dayワ
  ークショップ:セキュリティ(暗号を学ぶ)（12/11回）
-DESCRIPTION:12/11回の締切(11/11正午)\n募集ページ: https://www.nt
- t-tx.co.jp/ri/recruit/event.html\n※日程は変わることがありま
- す。応募前に必ず公式サイト・マイページで確認して
- ください。\nセキュリティ職 28卒 募集レーダー: https://c
- attaxevasion.github.io/security-syukatsu/
+DESCRIPTION:12/11回の締切は11/11正午(本日)(11/11正午で終了)\n
+ 募集ページ: https://www.ntt-tx.co.jp/ri/recruit/event.html\n※日程
+ は変わることがあります。応募前に必ず公式サイト・
+ マイページで確認してください。\nセキュリティ職 28卒
+  募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
 URL:https://www.ntt-tx.co.jp/ri/recruit/event.html
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -261,45 +427,94 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lycorp-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:【締切】LINEヤフー｜Security Engineering Expert(Security)
-DESCRIPTION:Term2 12/7・Term3 2027/1/5(各10:00)。早期終了あり\n募
- 集ページ: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003
- /\n※日程は変わることがあります。応募前に必ず公式
- サイト・マイページで確認してください。\nセキュリテ
- ィ職 28卒 募集レーダー: https://cattaxevasion.github.io/security-
- syukatsu/
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:【締切】LINEヤフー｜Security Engineering Expert(第2ター
+ ム)
+DESCRIPTION:12/7 10:00締切。早期終了の可能性あり\n募集ペー
+ ジ: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/\n※日
+ 程は変わることがあります。応募前に必ず公式サイト
+ ・マイページで確認してください。\nセキュリティ職 28
+ 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
 URL:https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(Securit
- y)
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(第2タ
+ ーム)
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(Securit
- y)
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(第2タ
+ ーム)
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mercari-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+UID:lycorp-1-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:【締切】LINEヤフー｜Security Engineering Expert(第3ター
+ ム)
+DESCRIPTION:12/7〜1/5 10:00。早期終了の可能性あり\n募集ペー
+ ジ: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/\n※日
+ 程は変わることがあります。応募前に必ず公式サイト
+ ・マイページで確認してください。\nセキュリティ職 28
+ 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(第3タ
+ ーム)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】LINEヤフー｜Security Engineering Expert(第3タ
+ ーム)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lycorp-1-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:【受付開始】LINEヤフー｜Security Engineering Expert(第3
+ ターム)
+DESCRIPTION:12/7〜1/5 10:00。早期終了の可能性あり\n募集ペー
+ ジ: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/\n※日
+ 程は変わることがあります。応募前に必ず公式サイト
+ ・マイページで確認してください。\nセキュリティ職 28
+ 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】LINEヤフー｜Security Engineering Expert(
+ 第3ターム)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mercari-1-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:【締切】メルカリ｜Class of 2028 Security Engineer Internsh
  ip
-DESCRIPTION:12/31 23:59 JST締切。2〜3か月・週20時間以上\n募集
- ページ: https://apply.workable.com/mercari/jobs/view/50B095B785.md\n※
- 日程は変わることがあります。応募前に必ず公式サイ
- ト・マイページで確認してください。\nセキュリティ職
-  28卒 募集レーダー: https://cattaxevasion.github.io/security-syukat
- su/
-URL:https://apply.workable.com/mercari/jobs/view/50B095B785.md
+DESCRIPTION:前回確認の12/31締切(今回は求人詳細が429で再確
+ 認できず)\n募集ページ: https://careers.mercari.com/jobs/?employme
+ nt_type=internships+new-graduate-hiring\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://careers.mercari.com/jobs/?employment_type=internships+new-gradu
+ ate-hiring
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -316,7 +531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ntt-labs-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:【締切】NTT(NTT研究所)｜NTT R&D 冬期インターンシッ
@@ -344,7 +559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rakuten-mobile-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:【締切】楽天モバイル｜2028年新卒 セキュリティ
@@ -370,36 +585,60 @@ TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:panasonic-automotive-systems-0-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:【締切】パナソニック オートモーティブシステム
- ズ｜冬季インターンシップ ICT(セキュリティ)テーマ「
- サイバー攻撃からクルマを守る！攻撃検知技術の開発
- 」(横浜/大阪)
-DESCRIPTION:チャレンジシート11/10、適性検査11/12まで\n募集
- ページ: https://automotive.panasonic.com/recruit/intern/\n※日程は
- 変わることがあります。応募前に必ず公式サイト・マ
- イページで確認してください。\nセキュリティ職 28卒 
- 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
-URL:https://automotive.panasonic.com/recruit/intern/
+UID:yamaha-0-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:【締切】ヤマハ｜一般インターンシップ(冬期) テ
+ ーマ07-02「グローバルでのグループ従業員向け情報セキ
+ ュリティ教育の改善」
+DESCRIPTION:11/12〜11/25 9:00受付。ES・顔写真・適性検査\n募
+ 集ページ: https://www.yamaha.com/ja/recruitment/internship/application
+ -information/\n※日程は変わることがあります。応募前に
+ 必ず公式サイト・マイページで確認してください。\nセ
+ キュリティ職 28卒 募集レーダー: https://cattaxevasion.github.
+ io/security-syukatsu/
+URL:https://www.yamaha.com/ja/recruitment/internship/application-informatio
+ n/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】パナソニック オートモーティブシス
- テムズ｜冬季インターンシップ ICT(セキュリティ)テー
- マ「サイバー攻撃からクルマを守る！攻撃検知技術の
- 開発」(横浜/大阪)
+DESCRIPTION:【締切】ヤマハ｜一般インターンシップ(冬期) 
+ テーマ07-02「グローバルでのグループ従業員向け情報セ
+ キュリティ教育の改善」
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】パナソニック オートモーティブシス
- テムズ｜冬季インターンシップ ICT(セキュリティ)テー
- マ「サイバー攻撃からクルマを守る！攻撃検知技術の
- 開発」(横浜/大阪)
+DESCRIPTION:【締切】ヤマハ｜一般インターンシップ(冬期) 
+ テーマ07-02「グローバルでのグループ従業員向け情報セ
+ キュリティ教育の改善」
 TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yamaha-0-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:【受付開始】ヤマハ｜一般インターンシップ(冬期
+ ) テーマ07-02「グローバルでのグループ従業員向け情報
+ セキュリティ教育の改善」
+DESCRIPTION:11/12〜11/25 9:00受付。ES・顔写真・適性検査\n募
+ 集ページ: https://www.yamaha.com/ja/recruitment/internship/application
+ -information/\n※日程は変わることがあります。応募前に
+ 必ず公式サイト・マイページで確認してください。\nセ
+ キュリティ職 28卒 募集レーダー: https://cattaxevasion.github.
+ io/security-syukatsu/
+URL:https://www.yamaha.com/ja/recruitment/internship/application-informatio
+ n/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】ヤマハ｜一般インターンシップ(
+ 冬期) テーマ07-02「グローバルでのグループ従業員向け
+ 情報セキュリティ教育の改善」
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 END:VCALENDAR

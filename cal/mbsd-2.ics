@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:三井物産セキュアディレクション 28卒新卒採
+ 用 第Ⅲ期
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:mbsd-2-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:【締切】三井物産セキュアディレクション｜28卒
+ 新卒採用 第Ⅲ期
+DESCRIPTION:第Ⅲ期 4/1〜6/30\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅲ期
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】三井物産セキュアディレクション｜28
+ 卒新卒採用 第Ⅲ期
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbsd-2-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:【受付開始】三井物産セキュアディレクション｜2
+ 8卒新卒採用 第Ⅲ期
+DESCRIPTION:第Ⅲ期 4/1〜6/30\n募集ページ: https://public.n-ats.hrm
+ os.co/hr-mbsd/jobs/2255957774665375744\n※日程は変わることがあ
+ ります。応募前に必ず公式サイト・マイページで確認
+ してください。\nセキュリティ職 28卒 募集レーダー: htt
+ ps://cattaxevasion.github.io/security-syukatsu/
+URL:https://public.n-ats.hrmos.co/hr-mbsd/jobs/2255957774665375744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】三井物産セキュアディレクション
+ ｜28卒新卒採用 第Ⅲ期
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

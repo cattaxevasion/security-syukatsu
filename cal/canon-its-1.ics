@@ -8,16 +8,17 @@ X-WR-CALNAME:キヤノンITソリューションズ セキュリティエ
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:canon-its-1-dl@security-syukatsu
-DTSTAMP:20261103T153242Z
+DTSTAMP:20261111T074409Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:【締切】キヤノンITソリューションズ｜セキュリ
  ティエンジニア職 クイズで学ぶ仕事体験(在宅1day)
-DESCRIPTION:2026年12月開催(オンライン)、締切12/17\n募集ペー
- ジ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※日
- 程は変わることがあります。応募前に必ず公式サイト
- ・マイページで確認してください。\nセキュリティ職 28
- 卒 募集レーダー: https://cattaxevasion.github.io/security-syukatsu/
+DESCRIPTION:開催は11〜12月(オンライン)、締切12/17\n募集ペ
+ ージ: https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/\n※
+ 日程は変わることがあります。応募前に必ず公式サイ
+ ト・マイページで確認してください。\nセキュリティ職
+  28卒 募集レーダー: https://cattaxevasion.github.io/security-syukat
+ su/
 URL:https://job.rikunabi.com/job_descriptions/32d301b5ecc3ccd7/
 TRANSP:TRANSPARENT
 BEGIN:VALARM

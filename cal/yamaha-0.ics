@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ヤマハ 一般インターンシップ(冬期) テーマ07-0
+ 2「グローバルでのグループ従業員向け情報セキュリテ
+ ィ教育の改善」
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:yamaha-0-dl@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:【締切】ヤマハ｜一般インターンシップ(冬期) テ
+ ーマ07-02「グローバルでのグループ従業員向け情報セキ
+ ュリティ教育の改善」
+DESCRIPTION:11/12〜11/25 9:00受付。ES・顔写真・適性検査\n募
+ 集ページ: https://www.yamaha.com/ja/recruitment/internship/application
+ -information/\n※日程は変わることがあります。応募前に
+ 必ず公式サイト・マイページで確認してください。\nセ
+ キュリティ職 28卒 募集レーダー: https://cattaxevasion.github.
+ io/security-syukatsu/
+URL:https://www.yamaha.com/ja/recruitment/internship/application-informatio
+ n/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】ヤマハ｜一般インターンシップ(冬期) 
+ テーマ07-02「グローバルでのグループ従業員向け情報セ
+ キュリティ教育の改善」
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】ヤマハ｜一般インターンシップ(冬期) 
+ テーマ07-02「グローバルでのグループ従業員向け情報セ
+ キュリティ教育の改善」
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yamaha-0-op@security-syukatsu
+DTSTAMP:20261111T074409Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:【受付開始】ヤマハ｜一般インターンシップ(冬期
+ ) テーマ07-02「グローバルでのグループ従業員向け情報
+ セキュリティ教育の改善」
+DESCRIPTION:11/12〜11/25 9:00受付。ES・顔写真・適性検査\n募
+ 集ページ: https://www.yamaha.com/ja/recruitment/internship/application
+ -information/\n※日程は変わることがあります。応募前に
+ 必ず公式サイト・マイページで確認してください。\nセ
+ キュリティ職 28卒 募集レーダー: https://cattaxevasion.github.
+ io/security-syukatsu/
+URL:https://www.yamaha.com/ja/recruitment/internship/application-informatio
+ n/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】ヤマハ｜一般インターンシップ(
+ 冬期) テーマ07-02「グローバルでのグループ従業員向け
+ 情報セキュリティ教育の改善」
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
