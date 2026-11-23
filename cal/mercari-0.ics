@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:メルカリ 28卒対象 セキュリティエンジニア イ
+ ンターンシップ
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:mercari-0-dl@security-syukatsu
+DTSTAMP:20261123T172136Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【締切】メルカリ｜28卒対象 セキュリティエンジ
+ ニア インターンシップ
+DESCRIPTION:11/30 23:59締切（12/31ではない）\n募集ページ: http
+ s://apply.workable.com/mercari/j/34A6936C9F\n※日程は変わること
+ があります。応募前に必ず公式サイト・マイページで
+ 確認してください。\nセキュリティ職 28卒 募集レーダ
+ ー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://apply.workable.com/mercari/j/34A6936C9F
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜28卒対象 セキュリティエン
+ ジニア インターンシップ
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】メルカリ｜28卒対象 セキュリティエン
+ ジニア インターンシップ
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

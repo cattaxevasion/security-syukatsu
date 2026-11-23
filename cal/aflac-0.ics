@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:アフラック生命保険 Aflac 情報セキュリティ 2da
+ ysインターンシップ
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:aflac-0-dl@security-syukatsu
+DTSTAMP:20261123T172136Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:【締切】アフラック生命保険｜Aflac 情報セキュリ
+ ティ 2daysインターンシップ
+DESCRIPTION:ES 12/8 17:00、適性検査 12/22 17:00まで\n募集ページ
+ : https://www.aflac-recruit.jp/newgraduate/internship/\n※日程は変わ
+ ることがあります。応募前に必ず公式サイト・マイペ
+ ージで確認してください。\nセキュリティ職 28卒 募集
+ レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.aflac-recruit.jp/newgraduate/internship/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】アフラック生命保険｜Aflac 情報セキュ
+ リティ 2daysインターンシップ
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】アフラック生命保険｜Aflac 情報セキュ
+ リティ 2daysインターンシップ
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

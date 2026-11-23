@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:神戸デジタル・ラボ 会社説明会 第2回（オン
+ ライン）
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:kobe-digital-labo-1-dl@security-syukatsu
+DTSTAMP:20261123T172136Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:【締切】神戸デジタル・ラボ｜会社説明会 第2回
+ （オンライン）
+DESCRIPTION:開催12/3 14:00、定員15名。申込締切の記載なし\n
+ 募集ページ: https://www.kdl.co.jp/recruit/fresh/\n※日程は変わ
+ ることがあります。応募前に必ず公式サイト・マイペ
+ ージで確認してください。\nセキュリティ職 28卒 募集
+ レーダー: https://cattaxevasion.github.io/security-syukatsu/
+URL:https://www.kdl.co.jp/recruit/fresh/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】神戸デジタル・ラボ｜会社説明会 第2
+ 回（オンライン）
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】神戸デジタル・ラボ｜会社説明会 第2
+ 回（オンライン）
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

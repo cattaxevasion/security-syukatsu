@@ -3,34 +3,33 @@ VERSION:2.0
 PRODID:-//security-syukatsu//radar//JA
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:メルカリ Class of 2028 Security Engineer Internship
+X-WR-CALNAME:メルカリ 28卒対象 セキュリティエンジニア 新
+ 卒採用
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:mercari-1-dl@security-syukatsu
-DTSTAMP:20261123T143811Z
+DTSTAMP:20261123T172136Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-SUMMARY:【締切】メルカリ｜Class of 2028 Security Engineer Internsh
- ip
-DESCRIPTION:以前確認の12/31締切(今回も詳細429で未再確認)\n
- 募集ページ: https://careers.mercari.com/jobs/?employment_type=interns
- hips+new-graduate-hiring\n※日程は変わることがあります。応
- 募前に必ず公式サイト・マイページで確認してくださ
- い。\nセキュリティ職 28卒 募集レーダー: https://cattaxevas
- ion.github.io/security-syukatsu/
-URL:https://careers.mercari.com/jobs/?employment_type=internships+new-gradu
- ate-hiring
+SUMMARY:【締切】メルカリ｜28卒対象 セキュリティエンジ
+ ニア 新卒採用
+DESCRIPTION:12/31 23:59締切\n募集ページ: https://apply.workable.com/
+ mercari/j/77EC448AA2\n※日程は変わることがあります。応募
+ 前に必ず公式サイト・マイページで確認してください
+ 。\nセキュリティ職 28卒 募集レーダー: https://cattaxevasion
+ .github.io/security-syukatsu/
+URL:https://apply.workable.com/mercari/j/77EC448AA2
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
- rnship
+DESCRIPTION:【締切】メルカリ｜28卒対象 セキュリティエン
+ ジニア 新卒採用
 TRIGGER:-P2DT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:【締切】メルカリ｜Class of 2028 Security Engineer Inte
- rnship
+DESCRIPTION:【締切】メルカリ｜28卒対象 セキュリティエン
+ ジニア 新卒採用
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
