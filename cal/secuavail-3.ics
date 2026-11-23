@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//security-syukatsu//radar//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:セキュアヴェイル 新卒採用 会社説明会 1/29回(
+ 技術総合職、オンライン)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:secuavail-3-dl@security-syukatsu
+DTSTAMP:20261123T143811Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:【締切】セキュアヴェイル｜新卒採用 会社説明会
+  1/29回(技術総合職、オンライン)
+DESCRIPTION:1/29(金)13:30回。3営業日前17時締切\n募集ページ: 
+ https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-%e4
+ %bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8812%e6%9c%88%ef%bd%9e1%e
+ 6%9c%88%ef%bc%89/\n※日程は変わることがあります。応募前
+ に必ず公式サイト・マイページで確認してください。\n
+ セキュリティ職 28卒 募集レーダー: https://cattaxevasion.gith
+ ub.io/security-syukatsu/
+URL:https://www.secuavail.com/recruit/%e6%96%b0%e5%8d%92%e6%8e%a1%e7%94%a8-
+ %e4%bc%9a%e7%a4%be%e8%aa%ac%e6%98%8e%e4%bc%9a%ef%bc%8812%e6%9c%88%ef%bd%9e
+ 1%e6%9c%88%ef%bc%89/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 1/29回(技術総合職、オンライン)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【締切】セキュアヴェイル｜新卒採用 会社説
+ 明会 1/29回(技術総合職、オンライン)
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
